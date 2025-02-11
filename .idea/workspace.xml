@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a1a03db-f0f7-46cf-96fa-6bcb36502fdf" name="Changes" comment="First Working commit">
-      <change afterPath="$PROJECT_DIR$/file_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="0a1a03db-f0f7-46cf-96fa-6bcb36502fdf" name="Changes" comment="Second Commit ! fixed : context , size , API KEY ! fully working">
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -51,6 +53,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="/private/var/folders/q_/jj3q1pln399106yr6k8vsr8w0000gn/T/qodana_output/qodana.sarif.json" />
+        <option name="reportGuid" value="90ebf923-7cbc-4f31-a8a6-50432392a32c" />
+        <option name="reportName" value="FastAPIProject_groq/qodana/2025-02-10" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/q_/jj3q1pln399106yr6k8vsr8w0000gn/T/qodana_output/qodana.sarif.json" reportGuid="90ebf923-7cbc-4f31-a8a6-50432392a32c" reportId="FastAPIProject_groq/qodana/2025-02-10" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -89,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739218762247</updated>
-      <workItem from="1739218763320" duration="12416000" />
+      <workItem from="1739218763320" duration="13637000" />
     </task>
     <task id="LOCAL-00001" summary="First Working commit">
       <option name="closed" value="true" />
@@ -99,17 +118,37 @@
       <option name="project" value="LOCAL" />
       <updated>1739225910524</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Commit ! fixed : context , size , API KEY ! fully working">
+      <option name="closed" value="true" />
+      <created>1739231238374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739231238374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Working commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Working commit" />
+    <MESSAGE value="Second Commit ! fixed : context , size , API KEY ! fully working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit ! fixed : context , size , API KEY ! fully working" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FastAPIProject_groq$FastAPIProject_groq.coverage" NAME="FastAPIProject_groq Coverage Results" MODIFIED="1739231153514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FastAPIProject_groq$FastAPIProject_groq.coverage" NAME="FastAPIProject_groq Coverage Results" MODIFIED="1739236026004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
