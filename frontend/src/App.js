@@ -32,7 +32,10 @@ const App = () => {
                 const formData = new FormData();
                 formData.append("files", file); // ✅ Corrected key name
 
-                const res = await fetch("http://127.0.0.1:8000/upload/", {
+                const API_BASE_URL = process.env.REACT_APP_API_BASE_URL; // Use the environment variable
+
+                const res = await fetch(`${API_BASE_URL}/chat/`, {  // Chat endpoint
+
                     method: "POST",
                     body: formData,
                 });
@@ -52,7 +55,10 @@ const App = () => {
                     ]);
                 }
             } else {
-                const res = await fetch("http://127.0.0.1:8000/chat/", {
+                const API_BASE_URL = process.env.REACT_APP_API_BASE_URL; // Use the environment variable
+
+                const res = await fetch(`${API_BASE_URL}/chat/`, {  // Chat endpoint
+
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ messages: [...chatHistory, userMessage] }),
